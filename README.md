@@ -1,3 +1,8 @@
+**See https://github.com/cypress-io/cypress/issues/2694 for the reason behind this fork. Use at your own risk!**
+
+
+
+
 <p align="center">
   <img src="https://cloud.githubusercontent.com/assets/1268976/20607953/d7ae489c-b24a-11e6-9cc4-91c6c74c5e88.png"/>
 </p>
