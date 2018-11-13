@@ -1,7 +1,7 @@
 {
   "name": "cypress-bbc",
   "productName": "Cypress",
-  "version": "3.1.0",
+  "version": "3.2.0-0.0.2",
   "description": "Cypress.io end to end testing tool",
   "private": true,
   "engines": {
@@ -60,6 +60,7 @@
     ]
   },
   "devDependencies": {
+    "@cypress/browserify-preprocessor": "^1.1.2",
     "@cypress/bumpercar": "1.4.0",
     "@cypress/env-or-json-file": "^2.0.0",
     "@cypress/npm-run-all": "^4.0.4",
