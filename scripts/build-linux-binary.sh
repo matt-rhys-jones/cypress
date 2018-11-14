@@ -2,7 +2,7 @@
 
 echo "This script should be run from monorepo's root"
 
-name=cypress/internal:chrome61
+name=cypress/base:8
 echo "Pulling CI container $name"
 
 docker pull $name

@@ -539,9 +539,10 @@ describe "src/cy/commands/navigation", ->
 
       cert = 'a-cert'
       key = 'a-key'
+      ca = 'a-ca'
 
       cy
-        .visit("http://localhost:3500/timeout", { cert, key })
+        .visit("http://localhost:3500/timeout", { cert, key, ca })
         .then ->
           expect(backend).to.be.calledWithMatch("resolve:url", "http://localhost:3500/timeout", { cert, key })
 

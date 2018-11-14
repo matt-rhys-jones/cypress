@@ -6,7 +6,7 @@
   "scripts": {
     "postinstall": "echo '@packages/desktop-gui needs: npm run build'",
     "prebuild": "npm run check-deps-pre",
-    "build": "node ./scripts/build-dev.js",
+    "build": "npm rebuild node-sass && node ./scripts/build-dev.js",
     "prebuild-prod": "npm run check-deps-pre",
     "build-prod": "node ./scripts/build-prod.js",
     "prewatch": "npm run check-deps-pre",
