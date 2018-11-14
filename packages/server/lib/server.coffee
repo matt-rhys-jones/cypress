@@ -458,8 +458,8 @@ class Server
           gzip: false
           url: urlFile ? urlStr
           cert: options.cert || undefined
-          key: options.key || undefined,
-          ca: options.ca || undefined,
+          key: options.key || undefined
+          ca: options.ca || undefined
           headers: {
             accept: "text/html,*/*"
           }
